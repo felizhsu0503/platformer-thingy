@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dl1sgrnaudxi4"]
+
+[ext_resource type="Texture2D" uid="uid://b4yl4qhhipi0l" path="res://srcs/assets/Free/Items/Checkpoints/End/End (Idle).png" id="1_vhf2v"]
+
+[node name="Goal" type="Sprite2D" unique_id=88309784]
+texture = ExtResource("1_vhf2v")
