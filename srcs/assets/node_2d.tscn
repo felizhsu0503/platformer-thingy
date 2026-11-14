@@ -207,3 +207,9 @@ shape = SubResource("RectangleShape2D_kke7c")
 
 [node name="Camera2D" type="Camera2D" parent="Main charater" unique_id=1342637958]
 position = Vector2(333, 21)
+
+[node name="ColorRect" type="ColorRect" parent="Main charater" unique_id=419816272]
+offset_left = -10.0
+offset_top = -9.0
+offset_right = 10.0
+offset_bottom = 10.0
