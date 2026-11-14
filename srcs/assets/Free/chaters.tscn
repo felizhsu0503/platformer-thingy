@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://c4m3iw67qwug7"]
-
-[ext_resource type="Texture2D" uid="uid://cfib436uqepb1" path="res://srcs/assets/Free/Main Characters/Ninja Frog/Fall (32x32).png" id="1_r1b4u"]
-
-[node name="Fall(32x32)" type="Sprite2D" unique_id=1101933607]
-position = Vector2(651, 351)
-texture = ExtResource("1_r1b4u")

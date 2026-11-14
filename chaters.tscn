@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://c4m3iw67qwug7"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h6p75"]
+load_path = "res://.godot/imported/Fall (32x32).png-c13f32338d5e051d5be6eb9ccbf398e3.ctex"
+
+[node name="Fall(32x32)" type="Sprite2D" unique_id=1101933607]
+position = Vector2(554, 325)
+texture = SubResource("CompressedTexture2D_h6p75")
