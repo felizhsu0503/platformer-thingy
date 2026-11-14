@@ -1,7 +1,86 @@
 [gd_scene format=3 uid="uid://tiducg3l3u5g"]
 
-[ext_resource type="Texture2D" uid="uid://w4xo28u6m66b" path="res://srcs/assets/Free/Other/Confetti (16x16).png" id="1_8xuhg"]
+[ext_resource type="Texture2D" uid="uid://gglgt8xtnkm3" path="res://srcs/assets/Free/Traps/Trampoline/Jump (28x28).png" id="2_snvwx"]
 
-[node name="Confetti(16x16)" type="Sprite2D" unique_id=1607138824]
-position = Vector2(0, -1)
-texture = ExtResource("1_8xuhg")
+[sub_resource type="AtlasTexture" id="AtlasTexture_qluxc"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(0, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ek83b"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(28, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ri5fw"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(56, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tc3pe"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(84, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sj4ut"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(112, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e348n"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(140, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cckd2"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(168, 0, 28, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rr1cv"]
+atlas = ExtResource("2_snvwx")
+region = Rect2(196, 0, 28, 28)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qmlgv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qluxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ek83b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ri5fw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tc3pe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sj4ut")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e348n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cckd2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rr1cv")
+}],
+"loop": 0,
+"name": &"activate",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmlgv"]
+size = Vector2(20, 11)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=251865469]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_qmlgv")
+animation = &"activate"
+frame = 7
+frame_progress = 1.0
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=2114702279]
+position = Vector2(0, -11)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=398411810]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=181474781]
+position = Vector2(0, 9.5)
+shape = SubResource("RectangleShape2D_qmlgv")
