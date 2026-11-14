@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://64ji83lhbkrh"]
+
+[ext_resource type="PackedScene" uid="uid://cdenj1quh422l" path="res://srcs/assets/node_2d.tscn" id="1_0e48y"]
+[ext_resource type="PackedScene" uid="uid://tiducg3l3u5g" path="res://1.tscn" id="2_epypp"]
+
+[node name="Node2D" unique_id=1984608119 instance=ExtResource("1_0e48y")]
+
+[node name="TextureRect" parent="Parallax2D" parent_id_path=PackedInt32Array(706336141) index="0" unique_id=215778679]
+offset_left = -371.0
+offset_top = 379.0
+offset_right = 781.0
+offset_bottom = 1027.0
+
+[node name="AnimatedSprite2D" parent="." index="2" unique_id=251865469 instance=ExtResource("2_epypp")]
+position = Vector2(-194, -1.0000005)
+scale = Vector2(4.107143, 4.964286)

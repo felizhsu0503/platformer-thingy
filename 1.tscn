@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://tiducg3l3u5g"]
 
+[ext_resource type="Script" uid="uid://b3wohitghavu" path="res://1.gd" id="2_qluxc"]
 [ext_resource type="Texture2D" uid="uid://gglgt8xtnkm3" path="res://srcs/assets/Free/Traps/Trampoline/Jump (28x28).png" id="2_snvwx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qluxc"]
@@ -75,6 +76,7 @@ sprite_frames = SubResource("SpriteFrames_qmlgv")
 animation = &"activate"
 frame = 7
 frame_progress = 1.0
+script = ExtResource("2_qluxc")
 
 [node name="Marker2D" type="Marker2D" parent="." unique_id=2114702279]
 position = Vector2(0, -11)
@@ -84,3 +86,5 @@ position = Vector2(0, -11)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=181474781]
 position = Vector2(0, 9.5)
 shape = SubResource("RectangleShape2D_qmlgv")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
