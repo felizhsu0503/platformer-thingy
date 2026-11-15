@@ -6,4 +6,6 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		return
 	
 	play("activate")
-	body.velocity = Vector2.ONE.rotated(rotation)
+	body.direction.x = - 8000
+	body.velocity.y = -999
+	
