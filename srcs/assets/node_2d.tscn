@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dqsomtaia75yo" path="res://srcs/assets/Free/Background/Brown.png" id="4_pesoj"]
 [ext_resource type="Script" uid="uid://di50realh6vj8" path="res://srcs/assets/texture_rect.gd" id="5_pesoj"]
 [ext_resource type="PackedScene" uid="uid://dkkpegau104vc" path="res://srcs/assets/player.tscn" id="5_v3a28"]
-[ext_resource type="PackedScene" uid="uid://ds4of8ecb86qp" path="res://1.tscn" id="6_v3a28"]
+[ext_resource type="PackedScene" uid="uid://tiducg3l3u5g" path="res://1.tscn" id="6_v3a28"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0eo3m"]
 texture = ExtResource("1_umj7v")
@@ -220,20 +220,4 @@ tile_set = SubResource("TileSet_jh35h")
 position = Vector2(-310, -131)
 
 [node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
-position = Vector2(-226.99998, -40)
-scale = Vector2(1.5535699, 2.7857144)
-
-[node name="AnimatedSprite2D2" parent="." unique_id=1102244535 instance=ExtResource("6_v3a28")]
-position = Vector2(-148, -41)
-
-[node name="AnimatedSprite2D3" parent="." unique_id=181255886 instance=ExtResource("6_v3a28")]
-position = Vector2(1268, -73)
-
-[node name="AnimatedSprite2D4" parent="." unique_id=904670754 instance=ExtResource("6_v3a28")]
-position = Vector2(1332, -97)
-
-[node name="AnimatedSprite2D5" parent="." unique_id=1308520556 instance=ExtResource("6_v3a28")]
-position = Vector2(1396, -137)
-
-[node name="AnimatedSprite2D6" parent="." unique_id=792886408 instance=ExtResource("6_v3a28")]
-position = Vector2(1460, -169)
+position = Vector2(37, -112)

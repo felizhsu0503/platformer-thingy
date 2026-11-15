@@ -3,7 +3,7 @@ class_name Player
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
-
+@export_range(0.0, 1.0, 0.1) var bounce_modifier := 0.1
 var direction :Vector2
 func apply_velocity(added_vec:Vector2):
 	velocity += added_vec
@@ -21,7 +21,10 @@ func _physics_process(delta: float) -> void:
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_direction := Input.get_axis("left", "right")
 	if input_direction:
-		velocity.x = input_direction * SPEED
+		if not is_equal_approx(direction.x, 0):
+			velocity.x = input_direction * SPEED * bounce_modifier
+		else:
+			velocity.x = input_direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	velocity.x += lerp(direction.x, 0.0, 0.8)

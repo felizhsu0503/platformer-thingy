@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://ds4of8ecb86qp"]
+[gd_scene format=3 uid="uid://tiducg3l3u5g"]
 
 [ext_resource type="Texture2D" uid="uid://gglgt8xtnkm3" path="res://srcs/assets/Free/Traps/Trampoline/Jump (28x28).png" id="1_qujof"]
 [ext_resource type="Script" uid="uid://b3wohitghavu" path="res://1.gd" id="2_348n5"]
@@ -68,12 +68,11 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qmlgv"]
-size = Vector2(18, 15)
+size = Vector2(22.724636, 10.309624)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=251865469]
 texture_filter = 1
-position = Vector2(-9, -25)
-scale = Vector2(1.6428571, 2.7857141)
+scale = Vector2(2.5535717, 3.4107141)
 sprite_frames = SubResource("SpriteFrames_qmlgv")
 animation = &"activate"
 frame = 7
@@ -86,7 +85,11 @@ position = Vector2(0, -11)
 [node name="Area2D" type="Area2D" parent="." unique_id=398411810]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=181474781]
+<<<<<<< HEAD
 position = Vector2(-0.6086956, 7.897436)
+=======
+position = Vector2(-0.5410628, 8.903766)
+>>>>>>> f983b77350bb7eae8af367ceed519c8f1245df8f
 shape = SubResource("RectangleShape2D_qmlgv")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
