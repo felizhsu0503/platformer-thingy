@@ -219,30 +219,9 @@ tile_set = SubResource("TileSet_jh35h")
 [node name="Main charater" parent="." unique_id=57294927 instance=ExtResource("5_v3a28")]
 position = Vector2(-310, -131)
 
-[node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
-position = Vector2(-226.99998, -40)
-scale = Vector2(1.5535699, 2.7857144)
-
-[node name="AnimatedSprite2D2" parent="." unique_id=1102244535 instance=ExtResource("6_v3a28")]
-position = Vector2(-148, -41)
-scale = Vector2(1, 1)
-
-[node name="AnimatedSprite2D3" parent="." unique_id=181255886 instance=ExtResource("6_v3a28")]
-position = Vector2(1268, -73)
-scale = Vector2(1, 1)
-
-[node name="AnimatedSprite2D4" parent="." unique_id=904670754 instance=ExtResource("6_v3a28")]
-position = Vector2(1332, -97)
-scale = Vector2(1, 1)
-
-[node name="AnimatedSprite2D5" parent="." unique_id=1308520556 instance=ExtResource("6_v3a28")]
-position = Vector2(1396, -137)
-scale = Vector2(1, 1)
-
-[node name="AnimatedSprite2D6" parent="." unique_id=792886408 instance=ExtResource("6_v3a28")]
-position = Vector2(1460, -169)
-scale = Vector2(1, 1)
-
 [node name="Area2D" parent="." unique_id=1615186038 instance=ExtResource("2_gdc4f")]
 position = Vector2(1634, -191)
 target_scene = "uid://cdenj1quh422l"
+
+[node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
+position = Vector2(-224, -50)
