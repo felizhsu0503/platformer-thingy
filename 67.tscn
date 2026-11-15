@@ -465,7 +465,7 @@ tile_set = SubResource("TileSet_hx3u8")
 position = Vector2(-389.00003, -249.99998)
 
 [node name="Main charater" parent="." unique_id=57294927 instance=ExtResource("4_4u53l")]
-position = Vector2(-700, -252)
+position = Vector2(-698, -252)
 
 [node name="AnimatedSprite2D2" parent="." unique_id=1423711714 instance=ExtResource("3_rrkwd")]
 position = Vector2(-197.00002, -218.99998)
