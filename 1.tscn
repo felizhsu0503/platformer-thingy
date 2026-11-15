@@ -72,12 +72,10 @@ size = Vector2(22.724636, 10.309624)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=251865469]
 texture_filter = 1
-position = Vector2(-13.875002, 0)
-scale = Vector2(1.5625002, 3.4107141)
+position = Vector2(-1.875003, 4.1249995)
+scale = Vector2(1.429, 3.281)
 sprite_frames = SubResource("SpriteFrames_qmlgv")
 animation = &"activate"
-frame = 7
-frame_progress = 1.0
 script = ExtResource("2_348n5")
 
 [node name="Marker2D" type="Marker2D" parent="." unique_id=2114702279]

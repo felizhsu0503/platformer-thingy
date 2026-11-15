@@ -201,10 +201,10 @@ repeat_size = Vector2(1152, 648)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 149.0
-offset_top = 40.0
-offset_right = 1301.0
-offset_bottom = 688.0
+offset_left = -832.0
+offset_top = -714.0
+offset_right = 3048.0
+offset_bottom = 1534.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_pesoj")
@@ -223,5 +223,10 @@ position = Vector2(-310, -131)
 position = Vector2(1634, -191)
 target_scene = "uid://cdenj1quh422l"
 
-[node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
-position = Vector2(-224, -50)
+[node name="Node2D" type="Node2D" parent="." unique_id=1445045592]
+
+[node name="AnimatedSprite2D" parent="Node2D" unique_id=251865469 instance=ExtResource("6_v3a28")]
+position = Vector2(48, -106)
+
+[node name="AnimatedSprite2D2" parent="Node2D" unique_id=860016196 instance=ExtResource("6_v3a28")]
+position = Vector2(-201.875, -45.875)
