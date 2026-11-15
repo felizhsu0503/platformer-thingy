@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dqsomtaia75yo" path="res://srcs/assets/Free/Background/Brown.png" id="4_pesoj"]
 [ext_resource type="Script" uid="uid://di50realh6vj8" path="res://srcs/assets/texture_rect.gd" id="5_pesoj"]
 [ext_resource type="PackedScene" uid="uid://dkkpegau104vc" path="res://srcs/assets/player.tscn" id="5_v3a28"]
-[ext_resource type="PackedScene" uid="uid://ds4of8ecb86qp" path="res://1.tscn" id="6_v3a28"]
+[ext_resource type="PackedScene" uid="uid://tiducg3l3u5g" path="res://1.tscn" id="6_v3a28"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0eo3m"]
 texture = ExtResource("1_umj7v")
@@ -220,6 +220,7 @@ tile_set = SubResource("TileSet_jh35h")
 position = Vector2(-310, -131)
 
 [node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
+<<<<<<< HEAD
 position = Vector2(-226.99998, -40)
 scale = Vector2(1.5535699, 2.7857144)
 
@@ -246,3 +247,6 @@ scale = Vector2(1, 1)
 [node name="Area2D" parent="." unique_id=1615186038 instance=ExtResource("2_gdc4f")]
 position = Vector2(-63, -6)
 target_scene = "uid://cdenj1quh422l"
+=======
+position = Vector2(-195, -48)
+>>>>>>> 59bd93bf7529b1b30da7e33b7f454ad82fbee9d4
