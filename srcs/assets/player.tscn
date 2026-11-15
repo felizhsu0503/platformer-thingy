@@ -105,6 +105,7 @@ shape = SubResource("RectangleShape2D_kke7c")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=138815009]
 position = Vector2(333, 21)
+limit_bottom = 648
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1686775193]
 sprite_frames = SubResource("SpriteFrames_qeq5k")
