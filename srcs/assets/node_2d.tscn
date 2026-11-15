@@ -220,4 +220,4 @@ tile_set = SubResource("TileSet_jh35h")
 position = Vector2(-310, -131)
 
 [node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
-position = Vector2(37, -112)
+position = Vector2(-195, -48)
