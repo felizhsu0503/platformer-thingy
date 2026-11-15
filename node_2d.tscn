@@ -5,12 +5,6 @@
 
 [node name="Node2D" unique_id=1984608119 instance=ExtResource("1_0e48y")]
 
-[node name="TextureRect" parent="Parallax2D" parent_id_path=PackedInt32Array(706336141) index="0" unique_id=215778679]
-offset_left = -371.0
-offset_top = 379.0
-offset_right = 781.0
-offset_bottom = 1027.0
-
-[node name="AnimatedSprite2D" parent="." index="2" unique_id=251865469 instance=ExtResource("2_epypp")]
-position = Vector2(-194, -1.0000005)
-scale = Vector2(4.107143, 4.964286)
+[node name="AnimatedSprite2D" parent="." index="3" unique_id=251865469 instance=ExtResource("2_epypp")]
+position = Vector2(100.00001, -35.999996)
+scale = Vector2(3.1428573, 2.482143)
