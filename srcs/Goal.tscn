@@ -4,13 +4,13 @@
 [ext_resource type="Script" uid="uid://u8b87vej7mce" path="res://area_2d.gd" id="2_7hnsv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vtgal"]
-size = Vector2(55, 48.5)
+size = Vector2(55, 571)
 
 [node name="Area2D" type="Area2D" unique_id=1615186038]
 script = ExtResource("2_7hnsv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=860221723]
-position = Vector2(1, 12)
+position = Vector2(1, -43.5)
 shape = SubResource("RectangleShape2D_vtgal")
 
 [node name="Goal" type="Sprite2D" parent="." unique_id=88309784]
