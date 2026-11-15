@@ -434,3 +434,4 @@ position = Vector2(1522.1251, -205.875)
 
 [node name="Area2D" parent="." unique_id=1615186038 instance=ExtResource("4_n4hdm")]
 position = Vector2(3136, 122)
+target_scene = "uid://rpqo384tih86"

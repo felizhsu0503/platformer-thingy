@@ -523,6 +523,7 @@ position = Vector2(1146.125, -266.875)
 
 [node name="Area2D" parent="." unique_id=1615186038 instance=ExtResource("2_4u53l")]
 position = Vector2(1454, -239)
+target_scene = "uid://dirbsu84je267"
 
 [node name="AnimatedSprite2D23" parent="." unique_id=876990380 instance=ExtResource("3_rrkwd")]
 position = Vector2(1412.1251, -249.875)
