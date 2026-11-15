@@ -320,7 +320,7 @@ terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/0 = SubResource("TileSetAtlasSource_0eo3m")
 sources/1 = SubResource("TileSetScenesCollectionSource_d4fpy")
 
-[node name="Node2D" type="Node2D" unique_id=1984608119]
+[node name="Node2D2" type="Node2D" unique_id=1984608119]
 texture_filter = 1
 position = Vector2(64, -6)
 
@@ -347,7 +347,7 @@ tile_map_data = PackedByteArray("AAAJAAUAAAAJAAAAAAAJAAQAAAAHAAEAAAAJAAMAAAAHAAE
 tile_set = SubResource("TileSet_jh35h")
 
 [node name="Main charater" parent="." unique_id=57294927 instance=ExtResource("5_v3a28")]
-position = Vector2(-310, -131)
+position = Vector2(-330, -17)
 
 [node name="Node2D" type="Node2D" parent="." unique_id=1445045592]
 
