@@ -1,38 +1,38 @@
-[gd_scene format=3 uid="uid://tiducg3l3u5g"]
+[gd_scene format=3 uid="uid://ds4of8ecb86qp"]
 
-[ext_resource type="Script" uid="uid://b3wohitghavu" path="res://1.gd" id="2_qluxc"]
-[ext_resource type="Texture2D" uid="uid://gglgt8xtnkm3" path="res://srcs/assets/Free/Traps/Trampoline/Jump (28x28).png" id="2_snvwx"]
+[ext_resource type="Texture2D" uid="uid://gglgt8xtnkm3" path="res://srcs/assets/Free/Traps/Trampoline/Jump (28x28).png" id="1_qujof"]
+[ext_resource type="Script" uid="uid://b3wohitghavu" path="res://1.gd" id="2_348n5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qluxc"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(0, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ek83b"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(28, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ri5fw"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(56, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tc3pe"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(84, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sj4ut"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(112, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e348n"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(140, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cckd2"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(168, 0, 28, 28)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rr1cv"]
-atlas = ExtResource("2_snvwx")
+atlas = ExtResource("1_qujof")
 region = Rect2(196, 0, 28, 28)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qmlgv"]
@@ -68,15 +68,17 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qmlgv"]
-size = Vector2(20, 11)
+size = Vector2(18, 15)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=251865469]
 texture_filter = 1
+position = Vector2(-9, -25)
+scale = Vector2(1.6428571, 2.7857141)
 sprite_frames = SubResource("SpriteFrames_qmlgv")
 animation = &"activate"
 frame = 7
 frame_progress = 1.0
-script = ExtResource("2_qluxc")
+script = ExtResource("2_348n5")
 
 [node name="Marker2D" type="Marker2D" parent="." unique_id=2114702279]
 position = Vector2(0, -11)
@@ -84,7 +86,7 @@ position = Vector2(0, -11)
 [node name="Area2D" type="Area2D" parent="." unique_id=398411810]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=181474781]
-position = Vector2(0, 9.5)
+position = Vector2(1, 7.5)
 shape = SubResource("RectangleShape2D_qmlgv")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
