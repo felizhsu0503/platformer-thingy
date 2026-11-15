@@ -48,3 +48,7 @@ func _physics_process(delta: float) -> void:
 		direction.x = 0.0
 
 	move_and_slide()
+
+func _input(event: InputEvent) -> void:
+	if Input.is_action_just_pressed("secret_awa"):
+		global_position = get_global_mouse_position()
