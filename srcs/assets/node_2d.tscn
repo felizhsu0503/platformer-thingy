@@ -225,8 +225,23 @@ target_scene = "uid://cdenj1quh422l"
 
 [node name="Node2D" type="Node2D" parent="." unique_id=1445045592]
 
-[node name="AnimatedSprite2D" parent="Node2D" unique_id=251865469 instance=ExtResource("6_v3a28")]
-position = Vector2(48, -106)
+[node name="AnimatedSprite2D7" parent="Node2D" unique_id=251865469 instance=ExtResource("6_v3a28")]
+position = Vector2(1137.125, -76.875)
+
+[node name="AnimatedSprite2D6" parent="Node2D" unique_id=799060316 instance=ExtResource("6_v3a28")]
+position = Vector2(1009.125, -77.87501)
+
+[node name="AnimatedSprite2D5" parent="Node2D" unique_id=1592044709 instance=ExtResource("6_v3a28")]
+position = Vector2(723.125, -44.875)
+
+[node name="AnimatedSprite2D4" parent="Node2D" unique_id=81685095 instance=ExtResource("6_v3a28")]
+position = Vector2(367.12497, -44.875)
+
+[node name="AnimatedSprite2D" parent="Node2D" unique_id=1555611687 instance=ExtResource("6_v3a28")]
+position = Vector2(112, -45.000004)
 
 [node name="AnimatedSprite2D2" parent="Node2D" unique_id=860016196 instance=ExtResource("6_v3a28")]
 position = Vector2(-201.875, -45.875)
+
+[node name="AnimatedSprite2D3" parent="Node2D" unique_id=1325615683 instance=ExtResource("6_v3a28")]
+position = Vector2(238.125, -45.875)
