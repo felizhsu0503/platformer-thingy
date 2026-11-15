@@ -192,7 +192,7 @@ sources/1 = SubResource("TileSetScenesCollectionSource_d4fpy")
 
 [node name="Node2D" type="Node2D" unique_id=1984608119]
 texture_filter = 1
-position = Vector2(-149, -40)
+position = Vector2(64, -6)
 
 [node name="Parallax2D" type="Parallax2D" parent="." unique_id=706336141]
 repeat_size = Vector2(1152, 648)
@@ -220,7 +220,6 @@ tile_set = SubResource("TileSet_jh35h")
 position = Vector2(-310, -131)
 
 [node name="AnimatedSprite2D" parent="." unique_id=251865469 instance=ExtResource("6_v3a28")]
-<<<<<<< HEAD
 position = Vector2(-226.99998, -40)
 scale = Vector2(1.5535699, 2.7857144)
 
@@ -245,8 +244,5 @@ position = Vector2(1460, -169)
 scale = Vector2(1, 1)
 
 [node name="Area2D" parent="." unique_id=1615186038 instance=ExtResource("2_gdc4f")]
-position = Vector2(-63, -6)
+position = Vector2(1634, -191)
 target_scene = "uid://cdenj1quh422l"
-=======
-position = Vector2(-195, -48)
->>>>>>> 59bd93bf7529b1b30da7e33b7f454ad82fbee9d4
