@@ -72,7 +72,8 @@ size = Vector2(22.724636, 10.309624)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=251865469]
 texture_filter = 1
-scale = Vector2(2.5535717, 3.4107141)
+position = Vector2(-13.875002, 0)
+scale = Vector2(1.5625002, 3.4107141)
 sprite_frames = SubResource("SpriteFrames_qmlgv")
 animation = &"activate"
 frame = 7
