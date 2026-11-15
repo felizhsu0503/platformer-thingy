@@ -1,6 +1,8 @@
 [gd_scene format=4 uid="uid://rpqo384tih86"]
 
 [ext_resource type="Texture2D" uid="uid://b00eevqsmmb5k" path="res://srcs/assets/Free/Terrain/Terrain (16x16).png" id="1_7ya6o"]
+[ext_resource type="Texture2D" uid="uid://8tuic7wxv1gt" path="res://srcs/assets/Free/Background/Green.png" id="1_ap14m"]
+[ext_resource type="Script" uid="uid://di50realh6vj8" path="res://srcs/assets/texture_rect.gd" id="1_rrkwd"]
 [ext_resource type="PackedScene" uid="uid://dl1sgrnaudxi4" path="res://srcs/Goal.tscn" id="2_4u53l"]
 [ext_resource type="PackedScene" uid="uid://tiducg3l3u5g" path="res://1.tscn" id="3_rrkwd"]
 [ext_resource type="PackedScene" uid="uid://dkkpegau104vc" path="res://srcs/assets/player.tscn" id="4_4u53l"]
@@ -441,6 +443,17 @@ sources/1 = SubResource("TileSetScenesCollectionSource_8cx46")
 
 [node name="Node2D" type="Node2D" unique_id=1657207924]
 
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=1085320405]
+
+[node name="TextureRect" type="TextureRect" parent="Parallax2D" unique_id=355304243]
+offset_left = -1011.0
+offset_top = -1059.0
+offset_right = 2450.0
+offset_bottom = 485.0
+texture = ExtResource("1_ap14m")
+stretch_mode = 1
+script = ExtResource("1_rrkwd")
+
 [node name="TileMapLayer2" type="TileMapLayer" parent="." unique_id=58726250]
 texture_filter = 1
 position = Vector2(138, -142)
@@ -452,7 +465,7 @@ tile_set = SubResource("TileSet_hx3u8")
 position = Vector2(-389.00003, -249.99998)
 
 [node name="Main charater" parent="." unique_id=57294927 instance=ExtResource("4_4u53l")]
-position = Vector2(669, -282)
+position = Vector2(-700, -252)
 
 [node name="AnimatedSprite2D2" parent="." unique_id=1423711714 instance=ExtResource("3_rrkwd")]
 position = Vector2(-197.00002, -218.99998)
